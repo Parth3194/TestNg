@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-01T15:23:41 EDT" name="Suite" finished-at="2023-10-01T15:24:12 EDT" duration-ms="31709">
+    <groups>
+    </groups>
+    <test started-at="2023-10-01T15:23:41 EDT" name="Test" finished-at="2023-10-01T15:24:12 EDT" duration-ms="31709">
+      <class name="com.testcases.testng.LoginTest">
+        <test-method is-config="true" signature="borwsersetup()[pri:0, instance:com.testcases.testng.LoginTest@35dab4eb]" started-at="2023-10-01T15:23:41 EDT" name="borwsersetup" finished-at="2023-10-01T15:23:54 EDT" duration-ms="13378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- borwsersetup -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:1, instance:com.testcases.testng.LoginTest@35dab4eb]" started-at="2023-10-01T15:23:54 EDT" name="login" data-provider="login" finished-at="2023-10-01T15:23:59 EDT" duration-ms="4410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.testng.LoginTest@35dab4eb]" started-at="2023-10-01T15:23:59 EDT" name="teardown" finished-at="2023-10-01T15:23:59 EDT" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.testng.LoginTest -->
+      <class name="com.testcases.testng.Register">
+        <test-method is-config="true" signature="borwsersetup()[pri:0, instance:com.testcases.testng.Register@1033576a]" started-at="2023-10-01T15:24:00 EDT" name="borwsersetup" finished-at="2023-10-01T15:24:05 EDT" duration-ms="5247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- borwsersetup -->
+        <test-method signature="Addcustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.testcases.testng.Register@1033576a]" started-at="2023-10-01T15:24:05 EDT" name="Addcustomer" data-provider="register" finished-at="2023-10-01T15:24:12 EDT" duration-ms="6949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parthchauhan331944@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parth@3194]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Parrthsinhh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chharuhan]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[31/10/1994]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Mycompany]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[HelloWorld]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addcustomer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testcases.testng.Register@1033576a]" started-at="2023-10-01T15:24:12 EDT" name="teardown" finished-at="2023-10-01T15:24:12 EDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testcases.testng.Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
